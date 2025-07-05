@@ -1,7 +1,7 @@
 # SPI-Based-Memory-Interface-in-Verilog
 A modular Verilog design that connects an SPI Slave to a single-port RAM, enabling full-duplex communication and memory operations over the SPI protocol.
 
-## ⚙️ How SPI Works
+## How SPI Works
 SPI (Serial Peripheral Interface) is a synchronous, full-duplex communication protocol commonly used in embedded systems. It uses four main signals:
 
 • MOSI (Master Out, Slave In) – Serial data from master to slave
@@ -22,7 +22,7 @@ In This Project:
 
 4. Read results are sent back to the master through MISO.
 
-## 🚀 Project Overview
+## Project Overview
 This project includes:
 1. slave.v — SPI Slave implementation
 
@@ -32,7 +32,7 @@ This project includes:
 
 4. test_bench.v — Testbench for simulation and verification
 
-## 🧪 Simulation
+## Simulation
 You can simulate this project using Xilinx Vivado:
 1. Open Vivado and create a new project.
 
